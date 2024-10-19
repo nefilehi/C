@@ -9,6 +9,15 @@ Code, Compile, Run and Debug online from anywhere in world.
 #include <stdio.h>
 #include <stdlib.h>
 
+float media(int n, float *v){
+    int i;
+    float s;
+    for(i=0; i<n; i++){
+        s += v[i];
+    }
+    return s/n;
+}
+
 int main()
 {
     int i, n;
