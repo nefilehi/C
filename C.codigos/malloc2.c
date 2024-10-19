@@ -30,7 +30,7 @@ int main()
         }
     med = media(n,v);
     printf("Media:%.2f ", med);
-    getche();
+    getchar();
     //libera a Memoria
     free(v);
     return 0;
